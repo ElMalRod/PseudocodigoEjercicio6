@@ -1,0 +1,17 @@
+Algoritmo Ejercicio6
+	Dimension E[100]
+	Definir Contador Como Entero
+	Definir Contador2 Como Entero
+	Para j<-1 Hasta 100 Con Paso 1 Hacer
+		E[j]<-Azar(100)+1
+	Fin Para
+	Para i<-1 Hasta 100 Con Paso 1 Hacer
+		Si E[i] >=25 Entonces
+			Contador=Contador+1
+		SiNo
+			Contador2=Contador2+1
+		Fin Si
+	Fin Para
+	Escribir "Personas con mayor de 25 años ",Contador/100
+	Escribir "Personas con menor de 25 años ",Contador2/100
+FinAlgoritmo
